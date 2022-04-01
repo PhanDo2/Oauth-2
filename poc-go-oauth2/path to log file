@@ -1,0 +1,8 @@
+{"level":"info","time":"2022-04-01T15:05:36.181+0700","file":"poc-go-oauth2/main.go:32","msg":"Started running on http://localhost:9090"}
+{"level":"info","time":"2022-04-01T15:06:05.470+0700","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2022-04-01T15:06:05.470+0700","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=494197757401-3v1c1clagc07gtpifphasc0fh98h2m4k.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A9090%2Fcallback-gl&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&state=thisshouldberandom"}
+{"level":"info","time":"2022-04-01T15:06:05.867+0700","file":"services/google.go:57","msg":"4/0AX4XfWinj_4ndVOPzuzEFatM_iBAbusfvqk970qPKZYhx4AZ3bSxySAagzo7RSG2CvcTBw"}
+{"level":"info","time":"2022-04-01T15:06:06.167+0700","file":"services/google.go:74","msg":"TOKEN>> AccessToken>> ya29.A0ARrdaM8_zTGasD8-MavXugCPqCyQ2HtSN8LXGtdg5ot-sT8BJ4J94-myVtdED3EGg737y86vnd6jxKYoGzxV0TCo_xQoKbwBHk6BohT00DddwQ707B6W_Bu44jMh7Dl7h4g8a2ONdTja5qJ82zHXA4run0M39Q"}
+{"level":"info","time":"2022-04-01T15:06:06.167+0700","file":"services/google.go:75","msg":"TOKEN>> Expiration Time>> 2022-04-01 16:06:05.167182 +0700 +07 m=+3628.989239101"}
+{"level":"info","time":"2022-04-01T15:06:06.167+0700","file":"services/google.go:76","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2022-04-01T15:06:06.378+0700","file":"services/google.go:93","msg":"parseResponseBody: {\n  \"id\": \"109901264832493384682\",\n  \"email\": \"do.phan@savvycomsoftware.com\",\n  \"verified_email\": true,\n  \"picture\": \"https://lh3.googleusercontent.com/a/default-user=s96-c\",\n  \"hd\": \"savvycomsoftware.com\"\n}\n\n"}

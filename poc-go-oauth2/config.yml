@@ -1,0 +1,10 @@
+port: 9090
+logger-output-path: "path to log file"
+
+oauthStateString: "thisshouldberandom"
+google:
+  clientID: "494197757401-3v1c1clagc07gtpifphasc0fh98h2m4k.apps.googleusercontent.com"
+  clientSecret: "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"
+facebook:
+  clientID: "5628086200540222"
+  clientSecret: "be67e49b05bcec603d4309976da4cf27"
