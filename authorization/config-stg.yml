@@ -1,0 +1,29 @@
+#logging settings
+log:
+  filename: /Users/sw/go/log/kd-microservice.log.log
+  level: DEBUG
+
+#database settings
+database:
+  driver: ${db.driver}
+  hostname: ${db.host}
+  port: ${db.port}
+  username: ${db.username}
+  password: ${db.password}
+  dbname: ${db.schema}
+
+server:
+  port: 5600
+  env: dev
+  log-output: console
+  output-file-path: ./kd-microservice.log
+  config-path: .
+  service-name: kd-microservice
+
+#Access Control SETTING
+access-control:
+  allow-origin: "*"
+  allow-methods: "GET, POST, PUT, DELETE, OPTIONS"
+  allow-credentials: "true"
+  allow-headers: "Origin, Content-Type, Authorization"
+  request-headers: "Origin, Content-Type, Authorization"
